@@ -1,0 +1,142 @@
+.App {
+  text-align: center !important;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: lightblue;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 235px;
+  background: #57595c;
+}
+
+.inputcontainer {
+  display: flex;
+  background: #57595c;
+  flex-direction: column;
+  flex: 2;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input {
+  background: #57595c;
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  flex: 1;
+  font-size: 30px;
+  height: 30px;
+  width: 230px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+}
+
+.circularButton {
+  display: flex;
+  border-radius: 50px;
+  width: 17px;
+  height: 17px;
+  background: #ff544d;
+  border: #ff544d;
+  color: #fffaf3;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: 0.2px solid #58595d;
+  background: #808183;
+  flex-wrap: wrap;
+  flex: 0 1 100%;
+  text-align: center;
+
+  font-size: 20px;
+  color: white;
+}
+.colorButton {
+  border: 0.2px solid #58595d;
+  background: #ff9f0b;
+  flex-wrap: wrap;
+  flex: 0 1 100%;
+  text-align: center;
+
+  font-size: 24px;
+  color: white;
+}
+.colorButtonTwo {
+  border: 0.2px solid #58595d;
+  background: #68686b;
+  flex-wrap: wrap;
+  flex: 0 1 100%;
+  text-align: center;
+  font-size: 20px;
+
+  color: white;
+}
+.Allbutton {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+}
+
+.acTotwo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.ninetoplus {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.dottoequal {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.twobutton {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.acToplus {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+}
+
+.formm {
+  display: flex;
+  flex-direction: column;
+  background: #fffaf3;
+  width: 235px;
+  height: 323px;
+  border: 1px solid black;
+}
+.zero {
+  display: flex;
+  flex: 1;
+}
+.zerotoAll {
+  display: flex;
+  flex: 1;
+  direction: row;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
